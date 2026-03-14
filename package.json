@@ -1,0 +1,14 @@
+{
+  "name": "forja-backend",
+  "version": "1.0.0",
+  "description": "Backend de Webhook para a Forja (Integração Cakto)",
+  "main": "backend-webhook-exemplo.js",
+  "scripts": {
+    "start": "node backend-webhook-exemplo.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.1.0"
+  }
+}
